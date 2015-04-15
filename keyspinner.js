@@ -1,3 +1,6 @@
+/*jslint browser: true*/
+/*global $, jQuery, alert*/
+
 $(window).load(function(){
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
